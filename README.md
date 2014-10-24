@@ -14,7 +14,7 @@ JQuery Popup Plugin
   <b>closeWith:</b> Dom element which binds close event<br>
   <b>closeText:</b> Close button text<br>
   <b>customClass: </b>Adding custom class to popup body<br>
-  <b>master:</b> Creating popup with fully diffirent classes and ids<br>
+  <b>master:</b> Creating popup with fully different classes and ids<br>
   <b>header: </b>HTML of popup's header section<br>
   <b>footer:</b> HTML of popup's footer section<br>
   <b>content: </b>Content of the popup. That must be in single line. That content's type (html, url, image src, vs.) can change by &quot;type&quot; attribute below <br>
@@ -27,4 +27,3 @@ JQuery Popup Plugin
   <b>opacity: </b>Opacity of the shadow<br>
   <b>callBack: </b>Function name for trigger when popup open<br>
   <b>fire: </b>Function name vor trigger when popup close</p>
-

@@ -1,5 +1,5 @@
 			/*
-				Minus Popup Plug-in Lite v5.3.1 www.minus99.com - 2013
+				Minus Popup Plug-in Lite v5.3.2 www.minus99.com - 2013
 			*/
 
 (function($){
@@ -205,6 +205,10 @@
 						$(holder).css("visibility", "hidden");
 						$(hider).fadeOut(opt.speed);
 						$(popup).removeAttr("style");
+						
+						if($('iframe', ppBody).length > 0)
+							$('iframe', ppBody).removeAttr('src');
+							
 						$(ppBody).html('').removeAttr("style");
 						$(ppFtr).html('').hide();
 						$(ppHdr).html('').hide();
